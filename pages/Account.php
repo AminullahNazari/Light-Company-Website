@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="../assets/bootstrap.min.css" rel="stylesheet" type="text/css" >
+  
+  <script type="text/javascript" src="../assets/bootstrap.bundle.min.js"></script>
+
+</html>
+
+
 <?php session_start();
 
 
@@ -134,6 +144,7 @@ class DataBase extends CreateAccount
   }
 
 
+
   function connect(){
 
     $servername = "localhost";
@@ -181,12 +192,30 @@ class DataBase extends CreateAccount
     $stmt->close();
   }
 
-
-
 }
 
 
+/**
+* The loginClass
+*
+class ClassName extends AnotherClass
+{
+  
+  function __construct()
+  {
+    # code...
+  }
 
+  function emailExist($inputName){
+
+    //$checkInput=new FormValidation();
+    $email=$checkInput->test_input($_POST[$inputName]);
+
+
+  }
+
+
+}**/
 
 
 /**
@@ -197,16 +226,33 @@ class Main
   
   function __construct()
   {
-    
+
+
+    $checkInput=new FormValidation();
+    $db= new DataBase();
 
     if($_SERVER["REQUEST_METHOD"] == "POST"){
-     
         
-        $check=new FormValidation();
-        $nameError= $check->checkName();
-        $lastNameError=$check->checkLastname();
-        $emailError= $check->checkEmail();
-        $passwordError=$check->checkPasword();
+        $nameError= $checkInput->checkName();
+        $lastNameError=$checkInput->checkLastname();
+        $emailError= $checkInput->checkEmail();
+        $passwordError=$checkInput->checkPasword();
+        $test="an.amin@fdkjgjf.com";
+
+        if ($nameError=="" and $lastNameError=="" and $emailError=="" and $passwordError==""){
+        
+          $db->insertCustomer();
+          $db->disconnect();
+          $successAlert="<div class='alert alert-success alert-dismissible fade show'>
+                          <button type='button' class='btn-close' data-bs-dismiss='alert'></button>
+                          <strong>Success!</strong> Your account created successfull!
+                        </div>";
+
+
+
+
+          echo "$successAlert";
+        }
 
       
       

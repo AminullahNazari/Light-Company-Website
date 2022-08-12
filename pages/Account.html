@@ -176,13 +176,8 @@
       					By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made. 
       				</p>
 
-              <?php $nameErr='' ?>
-      				
-
-
-
-
-              <form action="Account.php" method="post">
+              
+              <form action="Account.php" method="post" target="_parent">
               <div class="mb-3 mt-3">
                 <label for="name" class="form-label h6 ">Name:</label><span class="text-danger">* <?php echo "$nameErr"; ?></span>
                 <input type="text" class="form-control p-2 " id="name" placeholder="Enter name" name="name" required>
@@ -283,5 +278,7 @@
 </html>
 
 <?php
+
   include 'Account.php';
+
 ?>
