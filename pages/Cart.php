@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Light Company>support</title>
+	<title>Light Company>shopping cart</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta id="my"  http-equiv="refresh">
@@ -72,20 +72,20 @@
 		<!--navbar-->
 		<nav class="navbar navbar-expand-sm navbar-light bg-light">
   			<div class="container-fluid">
-    			<a class="navbar-brand"  href="../index.html">LIGHT</a>
+    			<a class="navbar-brand"  href="../index.php">LIGHT</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       				<span class="navbar-toggler-icon"></span>
    			 	</button>
     			<div class="collapse navbar-collapse" id="mynavbar">
       				<ul class="navbar-nav me-auto">
         				<li class="nav-item">
-          					<a class="nav-link active" href="FAQs.html">Support</a>
+          					<a class="nav-link active" href="About Us.php">Support</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="PCs.html">Products</a>
+          					<a class="nav-link" href="PCs.php">Products</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="../index.html">Home</a>
+          					<a class="nav-link" href="../index.php">Home</a>
         				</li>
       				</ul>
       				<form class="d-flex">
@@ -100,33 +100,34 @@
 
 
       <div style="float: right;padding: 1% 1%">
-        <a href="Account.html" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
+        <a href="Account.php" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
       </div>
       <div   style="float: right; padding: 1% 1%">
-        <a id="test" href="Cart.html" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
+        <a id="test" href="Cart.php" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;opacity: 0.7"></i></a>
       </div>
 
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark" href="About Us.html">About Us</a>
+          <a id="link"  class="nav-link text-dark" href="About Us.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark" href="Contact.html">Contact Us</a>
+          <a id="link" class="nav-link text-dark" href="Contact.php">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark "  href="Terms of Service.html">Terms of Service</a>
+          <a id="link" class="nav-link text-dark "  href="Terms of Service.php">Terms of Service</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark " href="Privacy Policy.html">Privacy Policy</a>
+          <a id="link" class="nav-link text-dark " href="Privacy Policy.php">Privacy Policy</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark " href="FAQs.html">FAQs</a>
+          <a id="link" class="nav-link text-dark " href="FAQs.php">FAQs</a>
         </li>
       </ul>
 
 
       <div class="container-fluid p-3">
-        <h1  class="text-dark ms-5" ;">FAQs</h1>
+        <h1  class="text-dark ms-5" ;">My Cart</h1>
+        
 
         
       </div>
@@ -143,43 +144,39 @@
 		
 		
       		 <!--Contuctt us-->
-      	<div class="container-fluid shadow bg-white pt-5 pb-5" >
+      	<div class="container-fluid shadow bg-white pt-5 pb-5 " >
+      		<div class="row ps-4 pe-4 ">
+      			<div class="ps-5 pe-5 mt-4 col-sm-8">
+      				<h5 class="text-dark p-3" style="background-color: rgb(244,244,244);">Products</h5>
+      				<h3 class="text-secondary p-5 " style="text-align: center;">Your cart is empty</h3>	
+      			</div>
 
-      		<div class="container bg-secondary p-5  mb-4">
+      			<div class=" p-4 mt-4 col-sm-4 " style="background-color: rgb(244,244,244);">
+      				<h5 class="text-dark p-3 " style="text-align: center;">Order Summary </h5>
+      				<div>
+      					<span style="float: left;"><p class="text-dark pt-2 pb-2"> Total:</p></span>  
+              			<span style="float: right;"><p class="text-dark pt-2 pb-2"> 0.0$</p></span>
+      				</div>
+      				<hr class="mt-5">
+              	
       			
-      					<p class="text-light" style=" font-size: 500%;text-align: center;">LIGHT<sup class="text-light" style="font-size: 65%">&reg</sup></p>
-      				
+              	<form action="">
+              		<div class="mb-4 mt-4 ">
+                		<label for="comment" class="form-label h6 ">Comment:</label>
+                		<textarea class="form-control" rows="10" id="comment" name="comment"></textarea>
+              		</div>
+              		<div class="form-check mb-3">
+  						<input class="form-check-input" type="checkbox" id="check1" name="option1" value="something">
+  						<label class="form-check-label text-secondary">I agree with the terms and conditions</label>
+					</div>
+              
+              		<button type="submit" class="btn btn-primary p-4 pt-1 pb-1 disabled">Proceed to Checkout</button>
+             	</form>
+
+      			</div>
       		</div>
-
-          <div class="container  mb-4">
-            <h6>How long will I receive the goods?</h6>  
-            <p class="text-secondary mt-3>
-              About 30-45 days after the confirmation of the order.
-            </p>
-
-            <h6>How long is the warranty period?</h6>   
-            <p class="text-secondary mt-3 ">
-              Our products come with 1-year manufacturer's warranty.
-            </p>
-
-            <h6 >What are the different payment methods?</h6>   
-            <p class="text-secondary mt-3 ">
-              T/T, PayPal, Western Union, L/C.
-            </p>
-
-            <h6 > What are the major modes of transportation?</h6>  
-            <p class="text-secondary mt-3">
-              DHL, UPS, EMS, FedEx, Air freight, Sea freight.
-            </p>
-
-            <h6> The return and exchange policy?</h6>  
-            <p class="text-secondary mt-3 ">
-              <a style="text-decoration: none;color: gray" href=""> Return & Exchanges</a>
-            </p>
-            
-          </div>
-      				
-        </div>
+           	
+    	</div>
 
 
            

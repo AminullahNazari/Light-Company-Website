@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Light Company>support</title>
+	<title>Light Company>products</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta id="my"  http-equiv="refresh">
@@ -55,7 +55,39 @@
 
 
 
-    
+    * {box-sizing: border-box;}
+
+	.image-wall {
+  		position: relative;
+  		width: 100%;
+  		max-width: 300px;
+	}
+
+	#product-image {
+  		display: block;
+  		width: 100%;
+  		height: auto;
+	}
+
+	.overlay-button {
+  		position: absolute; 
+  		bottom: 0; 
+  		background: rgb(0,0,0);
+  		background: rgba(0,0,0,0.5); /* Black see-through */
+  		color: #f1f1f1; 
+  		width: 100%;
+  		transition: .5s ease;
+  		opacity:0;
+  		color: white;
+  		font-size: 20px;
+  		padding: 20px;
+  		text-align: center;
+	}
+
+	.image-wall:hover .overlay-button {
+ 		opacity: 1;
+	}
+
 	
 
     </style>
@@ -72,20 +104,20 @@
 		<!--navbar-->
 		<nav class="navbar navbar-expand-sm navbar-light bg-light">
   			<div class="container-fluid">
-    			<a class="navbar-brand"  href="../index.html">LIGHT</a>
+    			<a class="navbar-brand"  href="../index.php">LIGHT</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       				<span class="navbar-toggler-icon"></span>
    			 	</button>
     			<div class="collapse navbar-collapse" id="mynavbar">
       				<ul class="navbar-nav me-auto">
         				<li class="nav-item">
-          					<a class="nav-link active" href="Contact.html">Support</a>
+          					<a class="nav-link" href="About Us.php">Support</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="PCs.html">Products</a>
+          					<a class="nav-link active" href="Cables.php">Products</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="../index.html">Home</a>
+          					<a class="nav-link" href="../index.php">Home</a>
         				</li>
       				</ul>
       				<form class="d-flex">
@@ -100,35 +132,32 @@
 
 
       <div style="float: right;padding: 1% 1%">
-        <a href="Account.html" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
+        <a href="Account.php" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
       </div>
       <div   style="float: right; padding: 1% 1%">
-        <a id="test" href="Cart.html" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
+        <a id="test" href="Cart.php" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
       </div>
 
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a id="link"  class="nav-link text-dark" href="About Us.html">About Us</a>
+          <a id="link"  class="nav-link text-dark" href="PCs.php">PCs</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark" href="#">Contact Us</a>
+          <a id="link" class="nav-link text-dark" href="Power Banks.php">Power Banks</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark "  href="Terms of Service.html">Terms of Service</a>
+          <a id="link" class="nav-link text-dark "  href="Chargers.php">Chargers</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark " href="Privacy Policy.html">Privacy Policy</a>
-        </li>
-        <li class="nav-item">
-          <a id="link" class="nav-link text-dark " href="FAQs.html">FAQs</a>
+          <a class="nav-link text-dark " href="Cables.php">Cables</a>
         </li>
       </ul>
 
 
       <div class="container-fluid p-3">
-        <h1  class="text-dark ms-5" ;">Contact Us</h1>
-        <p class="text-secondary">Get in touch! We're here to quickly provide you with the info you need & answer any question you may have. </p>
-
+        <h1  class="text-dark ms-5" style="text-align: ;">
+          Cables
+        </h1>
         
       </div>
     </div>
@@ -143,68 +172,29 @@
 
 		
 		
-      		 <!--Contuctt us-->
-      	<div class="container-fluid shadow bg-white pt-5 pb-5 " >
-      		<div class="row ps-4 pe-4 ">
-      			<div class="ps-5 pe-5 mt-4 col-sm-7">
-      				<h2 class="text-dark">Send us an email</h2>
-      				<p class="text-secondary">Have a question or comment? <br>
-      				Use the form below to send us a message or contact us by mail at: </p>
-
-      				<form action="">
-  						<div class="mb-3 mt-3">
-    						<label for="name" class="form-label h6 ">Your Name:</label>
-    						<input type="text" class="form-control p-2 " id="name" placeholder="Enter name" name="name">
-  						</div>
-  						<div class="mb-3">
-   							<label for="Phone" class="form-label h6">Your Phone</label>
-    						<input type="tel" class="form-control p-2 " id="phone" placeholder="Enter phone" name="pswd">
-  						</div>
-  						<div class="mb-3">
-   							<label for="email" class="form-label h6">Your Email:</label>
-    						<input type="email" class="form-control p-2" id="email" placeholder="Enter email" name="pswd" required>
-  						</div>
-  						<div class="mb-3">
-  							<label class="h6" for="comment">Comments:</label>
-							<textarea class="form-control p-2" rows="7" id="comment" name="text" placeholder="Comment . . ." required ></textarea>
-  						</div>
-  						
-  						<button type="submit" class="btn btn-primary ps-3 pe-3 pt-1 pb-1">Submit Contact</button>
-					</form>
-      				
-      			</div>
-      			<div class=" p-4 mt-4 col-sm-5 " style="background-color: rgb(244,244,244);">
-      				<h2 class="text-dark">Please do get in touch! </h2>
-      				<p class="text-secondary p-2">
-      					We'd love to hear from you - please use the form to send us your message or ideas.
-      				</p>
-      				<p class="text-secondary p-2">
-      					8808 Ave Dermentum, Onsectetur Adipiscing<br>
-						Tortor Sagittis, CA 880986,<br>
-						United States
-      				</p>
-      				<p class="text-secondary p-2">
-      					9087S Divamus Faucibus Str.,<br>
-						City name,<br>
-						Postal Code,<br>
-						CA 90896<br>
-						United States
-      				</p>
-      				<p class="text-secondary p-2">
-      					E-Mail: Support@topk.com<br>
-						Toll-free: (1800) 000 8808
-      				</p>
-      				<hr>
-      				<p class="text-secondary p-2">
-      					Opening Hours:<br>
-						Monday to Saturday: 9am - 10pm<br>
-						Sundays: 10am - 6pm
-      				</p>
-
-      			</div>
-      		</div>
+      		 <!--product list--><a href="">
+      	<div class="container-fluid shadow bg-white pt-5 pb-5" >
         	
-        	
+        	<div class="row" >
+        		<div class="col-3" >          
+            <!--product profile -->
+            		<a href="">
+                		<div id="children" class="image-wall" >
+                			<div id="children" class="image-wall" >
+                    			<img id="product-image" src="../images/charger.jpg" alt="Avatar" class="image image-fluid">
+                				<div class="overlay-button d-grid"><a class="btn btn-primary btn-block" href="">Select</a></div>
+           					</div>
+
+                			<div class="image-wall" >
+                  				<a style="color: black; text-decoration: none;" href="">
+                      				<h5> The discription is came here in bottom...</h5>
+                      				<h5 class="text-secondary">cost</h5>
+                 				</a>               
+                			</div>
+                		</div>
+   					</a>
+   				</div>	
+    		</div>
     	</div>
 
 

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Light Company>account</title>
+	<title>Light Company>support</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta id="my"  http-equiv="refresh">
@@ -11,6 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="../assets/font/css/font-awesome.min.css">
 	
 	
+
+	
+
+
 
     <style>
 
@@ -68,20 +72,20 @@
 		<!--navbar-->
 		<nav class="navbar navbar-expand-sm navbar-light bg-light">
   			<div class="container-fluid">
-    			<a class="navbar-brand"  href="../index.html">LIGHT</a>
+    			<a class="navbar-brand"  href="../index.php">LIGHT</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       				<span class="navbar-toggler-icon"></span>
    			 	</button>
     			<div class="collapse navbar-collapse" id="mynavbar">
       				<ul class="navbar-nav me-auto">
         				<li class="nav-item">
-          					<a class="nav-link active" href="About Us.html">Support</a>
+          					<a class="nav-link active" href="About Us.php">Support</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="PCs.html">Products</a>
+          					<a class="nav-link" href="PCs.php">Products</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="../index.html">Home</a>
+          					<a class="nav-link" href="../index.php">Home</a>
         				</li>
       				</ul>
       				<form class="d-flex">
@@ -96,35 +100,34 @@
 
 
       <div style="float: right;padding: 1% 1%">
-        <a href="Account.html" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;opacity: 0.7"></i></a>  
+        <a href="Account.php" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
       </div>
       <div   style="float: right; padding: 1% 1%">
-        <a id="test" href="Cart.html" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
+        <a id="test" href="Cart.php" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
       </div>
 
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a id="link"  class="nav-link text-dark" href="About Us.html">About Us</a>
+          <a class="nav-link text-dark" href="About Us.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark" href="Contact.html">Contact Us</a>
+          <a id="link" class="nav-link text-dark" href="Contact.php">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark "  href="Terms of Service.html">Terms of Service</a>
+          <a id="link" class="nav-link text-dark "  href="Terms of Service.php">Terms of Service</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark " href="Privacy Policy.html">Privacy Policy</a>
+          <a id="link" class="nav-link text-dark " href="Privacy Policy.php">Privacy Policy</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark " href="FAQs.html">FAQs</a>
+          <a id="link" class="nav-link text-dark " href="FAQs.php">FAQs</a>
         </li>
       </ul>
 
 
       <div class="container-fluid p-3">
-        <h1  class="text-dark ms-5" ;">My Account</h1>
-        
-
+        <h1  class="text-dark ms-5" ;">About Us</h1>
+       
         
       </div>
     </div>
@@ -137,72 +140,32 @@
 	
 	<div id="bottom-root" class="container-fluid shadow p-0">
 
-	
+		
 		
       		 <!--Contuctt us-->
-      	<div class="container-fluid shadow bg-white pt-5 pb-5 " >
-      		<div class="row ps-4 pe-4 ">
-      			<div class="ps-5 pe-5 mt-4 col-sm-6">
-      				<h2 class="text-dark">Returning Customer</h2>
-      				<p class="text-secondary">I am a returning customer </p>
+      	<div class="container-fluid shadow bg-white pt-5 pb-5" >
 
-      				<form action="">	
-  						<div class="mb-3">
-   							<label for="email" class="form-label h6">Email:</label>
-    						<input type="email" class="form-control p-2" id="email" placeholder="Enter email" name="pswd" required>
-  						</div>
-
-              <div class="mb-3">
-                <label for="pswd" class="form-label h6">Password:</label>
-                <input type="password" class="form-control p-2" id="pswd" placeholder="Enter password" name="pswd" required>
-              </div>
-  						
-  						
-  						<button type="submit" class="btn btn-outline-primary ps-3 pe-3 pt-1 pb-1">Login</button>
-              <input type="text" style="visibility: hidden;width: 0%;height: 0%" name="formName" value="login">
-					   </form>
-
-             <p class="mt-4"> <a style="color: gray;text-decoration: none;" href="">Forgot Your Password?</a></p>
-
-
+      		<div class="container bg-secondary p-5">
+      			
+      					<p class="text-light" style=" font-size: 500%;text-align: center;">LIGHT<sup class="text-light" style="font-size: 65%">&reg</sup></p>
       				
-      			</div>
-      			<div class=" p-4 mt-4 col-sm-6 " style="background-color: rgb(244,244,244);">
-      				<h2 class="text-dark">New Customer </h2>
-              <p class="text-secondary p-2">
-                Register Account 
-              </p>
-      				<p class="text-secondary p-2">
-      					By creating an account you will be able to shop faster, be up to date on an order's status, and keep track of the orders you have previously made. 
-      				</p>
-
-              
-              <form action="Account.php" method="post" target="_parent">
-              <div class="mb-3 mt-3">
-                <label for="name" class="form-label h6 ">Name:</label><span class="text-danger">* <?php echo "$nameErr"; ?></span>
-                <input type="text" class="form-control p-2 " id="name" placeholder="Enter name" name="name" required>
-
-              </div>
-              <div class="mb-3">
-                <label for="Lastname" class="form-label h6">Last Name</label>
-                <input type="text" class="form-control p-2 " id="Lastname" placeholder="Enter Last Name" name="Lastname">
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label h6">Email:</label>
-                <input type="email" class="form-control p-2" id="email" placeholder="Enter email" name="email" required>
-              </div>
-              <div class="mb-3">
-                <label for="pswdcreate" class="form-label h6">Password:</label>
-                <input type="password" class="form-control p-2" id="pswdcreate" placeholder="Enter password" name="pswd" required>
-              </div>
-              <button type="submit" class="btn btn-outline-primary ps-3 pe-3 pt-1 pb-1">Create an Account</button>
-              <input type="text" style="visibility: hidden;width: 0%;height: 0%" name="formName" value="creatAccount" required>
-             </form>
-
-      			</div>
       		</div>
-        	
-        	
+      			
+      	
+      			
+      		
+      		<div class="container ">
+      			<p class="text-secondary mt-3 ">
+      				LIGHT is one of 3C digital accessories brands under Dongguan Chenxun Electronics Co., Ltd. integrating R&D, design, manufacture and sales. This brand was established in 2014.     			
+      			</p>
+      			<p class="text-secondary ">
+      				LIGHT combines the latest technology with years of hardware expertise to design and build fashion,solid consumer electronics and mobile tech accessories. We have a professional R & D team with a common appreciation for the finer details and utility of great products. From USB-C accessories to smartphone lenses to Bluetooth audio products, we are continuously developing and expanding our product portfolio to bring you practical, next generation tech to complement and elevate your digital lifestyle.
+      			</p>
+        		<p class="text-secondary ">
+        			We are committed to backing up with friendly, responsive services to build solid products to meet the needs of loyal customers around the world, and to build mutually beneficial relationships with experienced channel partners who can truly provide local services and promote LIGHT products.
+        		</p>
+        	</div>
+
     	</div>
 
 
@@ -222,9 +185,9 @@
 			<div class="row" style="width: 100%;">
     			<div class="col" ></div>
 				<div class="col-10 col-sm-8 col-lg-6">
-       				<form action="Account.php" method="post">
+       				<form action="">
     					<div class="input-group">     
-      						<input type="email" class="form-control" style="text-align: center;" placeholder="Enter your email" name="usrname" required>
+      						<input type="email" class="form-control" style="text-align: center;" placeholder="Enter your email" name="usrname">
       						<span style="margin-left: 2%"><button type="submit" class="btn btn-primary"> Submit</button></span>
     					</div>
   					</form>
@@ -276,9 +239,3 @@
 
 </body>
 </html>
-
-<?php
-
-  include 'Account.php';
-
-?>

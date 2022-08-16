@@ -104,20 +104,20 @@
 		<!--navbar-->
 		<nav class="navbar navbar-expand-sm navbar-light bg-light">
   			<div class="container-fluid">
-    			<a class="navbar-brand"  href="../index.html">LIGHT</a>
+    			<a class="navbar-brand"  href="../index.php">LIGHT</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       				<span class="navbar-toggler-icon"></span>
    			 	</button>
     			<div class="collapse navbar-collapse" id="mynavbar">
       				<ul class="navbar-nav me-auto">
         				<li class="nav-item">
-          					<a class="nav-link" href="About Us.html">Support</a>
+          					<a class="nav-link" href="About Us.php">Support</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link active" href="Cables.html">Products</a>
+          					<a class="nav-link active" href="Power Banks.php">Products</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="../index.html">Home</a>
+          					<a class="nav-link" href="../index.php">Home</a>
         				</li>
       				</ul>
       				<form class="d-flex">
@@ -132,31 +132,31 @@
 
 
       <div style="float: right;padding: 1% 1%">
-        <a href="Account.html" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
+        <a href="Account.php" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
       </div>
       <div   style="float: right; padding: 1% 1%">
-        <a id="test" href="Cart.html" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
+        <a id="test" href="Cart.php" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
       </div>
 
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a id="link"  class="nav-link text-dark" href="PCs.html">PCs</a>
+          <a id="link"  class="nav-link text-dark" href="PCs.php">PCs</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark" href="Power Banks.html">Power Banks</a>
+          <a class="nav-link text-dark" href="Power Banks.php">Power Banks</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark "  href="Chargers.html">Chargers</a>
+          <a id="link" class="nav-link text-dark "  href="Chargers.php">Chargers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark " href="Cables.html">Cables</a>
+          <a id="link" class="nav-link text-dark " href="Cables.php">Cables</a>
         </li>
       </ul>
 
 
       <div class="container-fluid p-3">
         <h1  class="text-dark ms-5" style="text-align: ;">
-          Cables
+          Power Banks
         </h1>
         
       </div>
@@ -181,7 +181,7 @@
             		<a href="">
                 		<div id="children" class="image-wall" >
                 			<div id="children" class="image-wall" >
-                    			<img id="product-image" src="../images/charger.jpg" alt="Avatar" class="image image-fluid">
+                    			<img id="product-image" src="../images/power.jpg" alt="Avatar" class="image image-fluid">
                 				<div class="overlay-button d-grid"><a class="btn btn-primary btn-block" href="">Select</a></div>
            					</div>
 

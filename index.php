@@ -95,20 +95,20 @@
 		<!--navbar-->
 		<nav class="navbar navbar-expand-sm navbar-light bg-light">
   			<div class="container-fluid">
-    			<a class="navbar-brand"  href="index.html">LIGHT</a>
+    			<a class="navbar-brand"  href="index.php">LIGHT</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       				<span class="navbar-toggler-icon"></span>
    			 	</button>
     			<div class="collapse navbar-collapse" id="mynavbar">
       				<ul class="navbar-nav me-auto">
         				<li class="nav-item">
-          					<a class="nav-link" href="pages/About Us.html" target="_self">Support</a>
+          					<a class="nav-link" href="pages/About Us.php" target="_self">Support</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="pages/PCs.html" target="_self">Products</a>
+          					<a class="nav-link" href="pages/PCs.php" target="_self">Products</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link active" href="index.html" target="_self">Home</a>
+          					<a class="nav-link active" href="index.php" target="_self">Home</a>
         				</li>
       				</ul>
       				<form class="d-flex">
@@ -121,10 +121,10 @@
 		
 		
 		<div style="float: right; padding: 1% 1%">
-	    	<a href="pages/Account.html" style=""><i id="user" class="fa fa-user-o " style="font-size:200%;color:black;"></i></a>	
+	    	<a href="pages/Account.php" style=""><i id="user" class="fa fa-user-o " style="font-size:200%;color:black;"></i></a>	
 	    </div>
 	    <div   style="float: right; padding: 1% 1%">
-	    	<a id="test" href="pages/Cart.html" style=" margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black;"></i></a>
+	    	<a id="test" href="pages/Cart.php" style=" margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black;"></i></a>
 	    </div>
   
 

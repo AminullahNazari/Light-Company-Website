@@ -76,20 +76,20 @@
 		<!--navbar-->
 		<nav class="navbar navbar-expand-sm navbar-light bg-light">
   			<div class="container-fluid">
-    			<a class="navbar-brand"  href="../index.html">LIGHT</a>
+    			<a class="navbar-brand"  href="../index.php">LIGHT</a>
     			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
       				<span class="navbar-toggler-icon"></span>
    			 	</button>
     			<div class="collapse navbar-collapse" id="mynavbar">
       				<ul class="navbar-nav me-auto">
         				<li class="nav-item">
-          					<a class="nav-link active" href="Terms of Service.html">Support</a>
+          					<a class="nav-link active" href="Terms of Service.php">Support</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="PCs.html">Products</a>
+          					<a class="nav-link" href="PCs.php">Products</a>
         				</li>
         				<li class="nav-item">
-          					<a class="nav-link" href="../index.html">Home</a>
+          					<a class="nav-link" href="../index.php">Home</a>
         				</li>
       				</ul>
       				<form class="d-flex">
@@ -104,27 +104,27 @@
 
 
       <div style="float: right;padding: 1% 1%">
-        <a href="Account.html" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
+        <a href="Account.php" style="float: right;"><i id="user" class="fa fa-user-o " style="font-size:200%;color:black; float: right;"></i></a>  
       </div>
       <div   style="float: right; padding: 1% 1%">
-        <a id="test" href="Cart.html" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
+        <a id="test" href="Cart.php" style="float: right; margin: 3% 3%;"><i id="cart" class="fa fa-shopping-cart" style="font-size:200%;color:black; float: right;"></i></a>
       </div>
 
       <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark" href="About Us.html">About Us</a>
+          <a id="link" class="nav-link text-dark" href="About Us.php">About Us</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark" href="Contact.html">Contact Us</a>
+          <a id="link" class="nav-link text-dark" href="Contact.php">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark "  href="Terms of Service.html">Terms of Service</a>
+          <a class="nav-link text-dark "  href="Terms of Service.php">Terms of Service</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark " href="Privacy Policy.html">Privacy Policy</a>
+          <a id="link" class="nav-link text-dark " href="Privacy Policy.php">Privacy Policy</a>
         </li>
         <li class="nav-item">
-          <a id="link" class="nav-link text-dark " href="FAQs.html">FAQs</a>
+          <a id="link" class="nav-link text-dark " href="FAQs.php">FAQs</a>
         </li>
       </ul>
 
